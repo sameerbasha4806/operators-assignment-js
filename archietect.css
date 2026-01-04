@@ -1,0 +1,59 @@
+
+.container{
+    height:800px;
+}
+.child1{
+    height: 400px;
+   
+}
+.child2{
+    height: 400px;
+}
+
+.sub-child1,.sub-child2,.sub-child3,.sub-child4{
+    width: 300px;
+    display: inline-block;
+    position: relative;
+   
+}
+.sub-child5,.sub-child6,.sub-child7,.sub-child8{
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    
+}
+img{
+    width: 100%;
+}
+h3{
+    background-color: black;
+    color: white;
+   padding: 10px;
+    position: absolute;
+    top: 0px;
+    margin: 0px;
+
+}
+.br{
+    height: 800px;
+    width: 100%;
+    position: relative;
+
+}
+.brr{
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+    font-size: 3rem;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+}
+.ar{
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 265px;
+    left: 620px;
+}
