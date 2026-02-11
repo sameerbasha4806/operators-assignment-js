@@ -87,6 +87,7 @@ console.log(check);
   (0-12), "Teen" (13-19), "Adult" (20-64), 
   and "Senior" (65 and above). Log the result. */
 
+  var agee=25;
 let citizen=
 (agee>=60)?"Senior citizen":
 (agee>=20)?"Adult":
