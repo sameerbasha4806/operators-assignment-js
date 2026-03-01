@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .board {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 500px;
+        border: 2px solid black;
+        margin-left: 350px;
+    }
+    .row-1 , .row-2, .row-3 , .row-4, .row-5 ,.row-6 , .row-7 , .row-8
+    { 
+        display: flex;
+        flex: 1;
+        border: 1px solid black;
+    }
+    .cell
+    {
+        flex: 1;
+        border: 1px solid black;
+    }
+    .row-1:nth-child(odd) .cell:nth-child(even),
+.row-2:nth-child(even) .cell:nth-child(odd),
+.row-3:nth-child(odd) .cell:nth-child(even),
+.row-4:nth-child(even) .cell:nth-child(odd),
+.row-5:nth-child(odd) .cell:nth-child(even),
+.row-6:nth-child(even) .cell:nth-child(odd),
+.row-7:nth-child(odd) .cell:nth-child(even),
+.row-8:nth-child(even) .cell:nth-child(odd)
+ {
+    background-color: lightgreen;
+}
+</style>
+<body>
+    <div class = "board">
+        <div class = "row-1">
+                <div class = "cell"><img width="45" height="45" src="https://img.icons8.com/ios/50/rook.png" alt="rook"/></div>
+                <div class = "cell"><img width="45" height="45" src="https://img.icons8.com/ios/50/knight.png" alt="knight"/></div>
+                <div class = "cell"><img width="45" height="45" src="https://img.icons8.com/ios/50/bishop.png" alt="bishop"/></div>
+                 <div class = "cell"><img width="45" height="45" src="https://img.icons8.com/ios/50/queen.png" alt="queen"/></div>
+                <div class = "cell"><img width="45" height="45" src="https://img.icons8.com/ios/50/king.png" alt="king"/></div>
+                <div class = "cell"><img width="45" height="45" src="https://img.icons8.com/ios/50/bishop.png" alt="bishop"/></div>
+                 <div class = "cell"><img width="45" height="45" src="https://img.icons8.com/ios/50/knight.png" alt="knight"/></div>
+                <div class = "cell"><img width="45" height="45" src="https://img.icons8.com/ios/50/rook.png" alt="rook"/></div>
+        </div>  
+        <div class = "row-2">
+                <div class = "cell"><img width="50" height="50" src="https://img.icons8.com/ios/50/pawn.png" alt="pawn"/></div>
+                <div class = "cell"><img width="50" height="50" src="https://img.icons8.com/ios/50/pawn.png" alt="pawn"/></div>
+                <div class = "cell"><img width="50" height="50" src="https://img.icons8.com/ios/50/pawn.png" alt="pawn"/></div>
+                 <div class = "cell"><img width="50" height="50" src="https://img.icons8.com/ios/50/pawn.png" alt="pawn"/></div>
+                <div class = "cell"><img width="50" height="50" src="https://img.icons8.com/ios/50/pawn.png" alt="pawn"/></div>
+                <div class = "cell"><img width="50" height="50" src="https://img.icons8.com/ios/50/pawn.png" alt="pawn"/></div>
+                 <div class = "cell"><img width="50" height="50" src="https://img.icons8.com/ios/50/pawn.png" alt="pawn"/></div>
+                <div class = "cell"><img width="50" height="50" src="https://img.icons8.com/ios/50/pawn.png" alt="pawn"/></div>
+        </div>
+        <div class = "row-3">
+                <div class = "cell"></div>
+                <div class = "cell"></div>
+                <div class = "cell"></div>
+                 <div class = "cell"></div>
+                <div class = "cell"></div>
+                <div class = "cell"></div>
+                 <div class = "cell"></div>
+                <div class = "cell"></div>
+        </div>
+        <div class = "row-4">
+                <div class = "cell"></div>
+                <div class = "cell"></div>
+                <div class = "cell"></div>
+                 <div class = "cell"></div>
+                <div class = "cell"></div>
+                <div class = "cell"></div>
+                 <div class = "cell"></div>
+                <div class = "cell"></div>
+        </div>
+         <div class = "row-5">
+                <div class = "cell"></div>
+                <div class = "cell"></div>
+                <div class = "cell"></div>
+                 <div class = "cell"></div>
+                <div class = "cell"></div>
+                <div class = "cell"></div>
+                 <div class = "cell"></div>
+                <div class = "cell"></div>
+        </div>
+         <div class = "row-6">
+                <div class = "cell"></div>
+                <div class = "cell"></div>
+                <div class = "cell"></div>
+                 <div class = "cell"></div>
+                <div class = "cell"></div>
+                <div class = "cell"></div>
+                 <div class = "cell"></div>
+                <div class = "cell"></div>
+        </div>
+        <div class = "row-7">
+               <div class = "cell"><img width="50" height="50" src="https://img.icons8.com/ios/50/pawn.png" alt="pawn"/></div>
+                <div class = "cell"><img width="50" height="50" src="https://img.icons8.com/ios/50/pawn.png" alt="pawn"/></div>
+                <div class = "cell"><img width="50" height="50" src="https://img.icons8.com/ios/50/pawn.png" alt="pawn"/></div>
+                 <div class = "cell"><img width="50" height="50" src="https://img.icons8.com/ios/50/pawn.png" alt="pawn"/></div>
+                <div class = "cell"><img width="50" height="50" src="https://img.icons8.com/ios/50/pawn.png" alt="pawn"/></div>
+                <div class = "cell"><img width="50" height="50" src="https://img.icons8.com/ios/50/pawn.png" alt="pawn"/></div>
+                 <div class = "cell"><img width="50" height="50" src="https://img.icons8.com/ios/50/pawn.png" alt="pawn"/></div>
+                <div class = "cell"><img width="50" height="50" src="https://img.icons8.com/ios/50/pawn.png" alt="pawn"/></div>
+        </div>
+        <div class = "row-8">
+                <div class = "cell"><img width="45" height="45" src="https://img.icons8.com/ios/50/rook.png" alt="rook"/></div>
+                <div class = "cell"><img width="45" height="45" src="https://img.icons8.com/ios/50/knight.png" alt="knight"/></div>
+                <div class = "cell"><img width="45" height="45" src="https://img.icons8.com/ios/50/bishop.png" alt="bishop"/></div>
+                 <div class = "cell"><img width="45" height="45" src="https://img.icons8.com/ios/50/queen.png" alt="queen"/></div>
+                <div class = "cell"><img width="45" height="45" src="https://img.icons8.com/ios/50/king.png" alt="king"/></div>
+                <div class = "cell"><img width="45" height="45" src="https://img.icons8.com/ios/50/bishop.png" alt="bishop"/></div>
+                 <div class = "cell"><img width="45" height="45" src="https://img.icons8.com/ios/50/knight.png" alt="knight"/></div>
+                <div class = "cell"><img width="45" height="45" src="https://img.icons8.com/ios/50/rook.png" alt="rook"/></div>
+        </div>
+        </div>
+</body>
+</html>
